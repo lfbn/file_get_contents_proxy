@@ -1,0 +1,28 @@
+{
+  "name": "lfbn/file-get-contents-proxy",
+  "description": "A proxy with extra features around file_get_contents.",
+  "keywords": ["file_get_contents"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Luís Nóbrega",
+      "email": "luis.barros.nobrega@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "FileGetContentsProxy\\": "src/"
+    }
+  },
+  "require": {
+    "php": "7.3.8"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.0",
+    "phpspec/phpspec": "^6.1"
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}

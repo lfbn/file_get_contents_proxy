@@ -1,0 +1,6 @@
+suites:
+    main:
+        namespace: FileGetContentsProxy
+        spec_prefix: spec
+
+formatter.name: pretty
