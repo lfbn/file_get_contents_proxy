@@ -1,6 +1,6 @@
 {
   "name": "lfbn/file-get-contents-proxy",
-  "description": "A proxy with extra features around file_get_contents.",
+  "description": "A proxy, around file_get_contents, that gives him extra features.",
   "keywords": ["file_get_contents"],
   "type": "library",
   "authors": [
